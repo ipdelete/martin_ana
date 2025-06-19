@@ -1,0 +1,11 @@
+[project]
+name = "fun-analyitics"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "datasette>=0.65.1",
+    "datasette-cluster-map>=0.18.2",
+    "sqlite-utils>=3.38",
+]
